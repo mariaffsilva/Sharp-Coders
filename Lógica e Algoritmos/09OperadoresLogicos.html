@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        /*
+        && -> E
+        || -> OU
+        !  -> NEGAÇÃO 
+        */
+        
+        //Exemplo 01 - negação - Muda o que é verdadeiro para falso e o que for falso para verdadeiro
+        document.write(!"true")
+
+        // Exemplo 02 - &&
+        var valor = 1000
+        var pagamento = "a vista"
+
+        if((valor >= 1000 ) && (pagamento == "a vista")){
+            document.write("Haverá um desconto")
+        }else{
+            document.write("Não haverá desconto")
+        }
+
+        // Exemplo 03 - || ou - Caso um dos dois for verdadeiro, haverá o desconto. Mas caso os dois não bater, não terá o desconto
+        var valor = 1000
+        var pagamento = "a prazo"
+
+        if((valor >= 1000 ) || (pagamento == "a vista")){
+            document.write("Haverá um desconto")
+        }else{
+            document.write("Não haverá desconto")
+        }
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
